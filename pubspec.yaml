@@ -3,8 +3,8 @@ version: 0.1.0
 author: Nils Döhring <nilsdoehring@gmail.com>
 description: Converts TypeScript wrapper definitions (.d.ts) from DefinitelyTyped to Dart JS interop facades.
 homepage: https://github.com/blockforest/dts-converter
-# environment:
-#   sdk: '>=1.13.1 <2.0.0'
+environment:
+  sdk: ">=2.5.0 <3.0.0"
 
 dependencies:
   func2:
